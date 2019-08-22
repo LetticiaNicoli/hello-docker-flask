@@ -1,5 +1,5 @@
 # hello-docker-flask
-Hello docker with flask
+Hello flask with docker
 
 Build  
 ```docker build -t my-api .```
