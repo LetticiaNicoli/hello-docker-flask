@@ -7,9 +7,6 @@ def index():
   return 'Hello World!'
 
 def results():
-  req = request.get_json(force=True)
-  action = req.get('queryResult').get('action')
-
   return {'fullfillmentText': 'This is a response from webhook'}
 
 @app.route('/webhook', methods=['GET','POST'])
